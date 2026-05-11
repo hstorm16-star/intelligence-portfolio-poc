@@ -16,7 +16,6 @@ from tabs import (
     tab_technical,
     tab_background,
     tab_impact,
-    tab_portfolio,
 )
 
 # ── Page config ────────────────────────────────────────────────────────────────
@@ -87,8 +86,6 @@ with tabs[5]:
 with tabs[6]:
     tab_impact.render()
 
-with tabs[7]:
-    tab_portfolio.render()
 
 # ── Footer ─────────────────────────────────────────────────────────────────────
 st.markdown("---")
