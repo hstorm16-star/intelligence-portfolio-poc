@@ -1,0 +1,44 @@
+[
+  {
+    "id": "sanctions",
+    "label": "Sanctions nexus & state-linked exposure analysis",
+    "icon": "🔒",
+    "description": "OFAC SDN attribution across layered counterparty structures. Iranian financial ecosystem mapping — oil procurement flows, VASP wallet rotation, cross-border payment evasion. Russian sanctions-adjacent infrastructure including nested exchanger networks and high-risk payment providers. DPRK-linked financial infrastructure and revenue generation pathways.",
+    "depth": 100
+  },
+  {
+    "id": "ctf",
+    "label": "Counter-threat finance & adversarial financial networks",
+    "icon": "⚠️",
+    "description": "Terrorist financing attribution and extremist network tracing. DPRK IT worker ecosystem analysis and cross-chain laundering pathway mapping. National-security-adjacent financial infrastructure investigation under high-sensitivity conditions requiring intelligence-grade reporting standards.",
+    "depth": 88
+  },
+  {
+    "id": "cybercrime",
+    "label": "Cybercrime infrastructure & exploit tracing",
+    "icon": "🐛",
+    "description": "Post-exploit fund flow analysis and cross-chain obfuscation mapping. Scattered Spider-related exposure analysis. UAB hosting and product infrastructure reviews. Fraud ecosystem attribution and illicit marketplace analysis.",
+    "depth": 82
+  },
+  {
+    "id": "ml",
+    "label": "Adversarial payment network & money laundering analysis",
+    "icon": "🔄",
+    "description": "Huione and Xinbi guarantee system infrastructure investigation. Illicit payment provider analysis — Heleket, Cryptomus. Garantex-adjacent exchanger network tracing. High-risk RUB-denominated flow analysis. Cross-chain layering and obfuscation pattern development.",
+    "depth": 70
+  },
+  {
+    "id": "procurement",
+    "label": "Strategic procurement & supply-chain intelligence",
+    "icon": "📦",
+    "description": "Drone procurement ecosystem exposure analysis. Dual-use technology supply-chain risk assessment. Sanctions-sensitive logistics pathway identification. Geopolitical risk analysis of adversarial procurement infrastructure tied to sanctioned jurisdictions.",
+    "depth": 48
+  },
+  {
+    "id": "reporting",
+    "label": "Strategic intelligence production & external reporting",
+    "icon": "📄",
+    "description": "Regulatory intelligence reporting including VARA support. LE-aligned intelligence packages produced to evidential standards. Legal scrutiny-grade analytical outputs. Large-scale internal intelligence dissemination and fusion methodology training.",
+    "depth": 55
+  }
+]

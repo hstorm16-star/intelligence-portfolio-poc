@@ -1,0 +1,80 @@
+[
+  {
+    "id": "iran",
+    "title": "Iranian financial ecosystem",
+    "color": "#185FA5",
+    "description": "Analysis of sanctions evasion infrastructure across Iranian state and commercial actors. Investigative focus on oil-linked procurement payment flows, VASP wallet rotation patterns used to obfuscate transaction trails, and cross-border payment rails — including stablecoin infrastructure — designed to circumvent OFAC restrictions. Exposure threads across Venezuelan and Myanmar procurement networks.",
+    "themes": [
+      "Iran–Venezuela oil flow exposure",
+      "Iran–Myanmar procurement exposure",
+      "VASP wallet rotation tracking",
+      "Cross-chain OFAC evasion",
+      "Stablecoin payment rail analysis"
+    ]
+  },
+  {
+    "id": "russia",
+    "title": "Russian sanctions-adjacent financial network",
+    "color": "#D85A30",
+    "description": "Investigation of high-risk Russian-linked financial infrastructure operating in sanctions-adjacent territory. Analysis of Garantex-adjacent exchanger activity, nested liquidity providers, and illicit payment providers (Heleket, Cryptomus) facilitating RUB-denominated flows and cross-border value movement outside sanctioned channels.",
+    "themes": [
+      "Garantex-adjacent exchanger analysis",
+      "Heleket payment provider",
+      "Cryptomus payment provider",
+      "High-risk RUB ecosystem",
+      "Nested exchanger infrastructure",
+      "Shadow banking exposure"
+    ]
+  },
+  {
+    "id": "dprk",
+    "title": "DPRK-linked financial infrastructure",
+    "color": "#854F0B",
+    "description": "Counter-threat finance analysis of DPRK revenue generation and laundering infrastructure. Scope includes IT worker ecosystem activity — front companies, wallet rotation, cross-chain layering — and the adversarial financial infrastructure used to move value in support of state objectives. Produced under national-security-adjacent scrutiny requirements.",
+    "themes": [
+      "DPRK IT worker ecosystem",
+      "Cross-chain laundering pathway mapping",
+      "Adversarial infrastructure attribution",
+      "Threat finance tracing"
+    ]
+  },
+  {
+    "id": "seasia",
+    "title": "Southeast Asian illicit payment ecosystem",
+    "color": "#534AB7",
+    "description": "Investigation and intelligence dissemination on Huione and Xinbi-linked infrastructure and the guarantee system ecosystem embedded in Southeast Asian cybercrime and money laundering networks. Delivered as a large-scale internal intelligence briefing — covering payment rail architecture, actor typology, and exposure pathways for financial institutions operating in the region.",
+    "themes": [
+      "Huione ecosystem analysis",
+      "Xinbi marketplace intelligence",
+      "Guarantee system infrastructure",
+      "Illicit payment rail architecture",
+      "APAC cybercrime exposure mapping"
+    ]
+  },
+  {
+    "id": "cybercrime",
+    "title": "Cybercrime infrastructure — threat actor financial analysis",
+    "color": "#0F6E56",
+    "description": "Technical investigation of cybercrime-linked financial activity and underlying infrastructure. Includes Scattered Spider-related exposure analysis, UAB product and hosting infrastructure reviews, exploit-linked fund tracing, and entity attribution across fraud-linked payment ecosystems. Focus on the financial infrastructure layer supporting cybercrime operations.",
+    "themes": [
+      "Scattered Spider-related analysis",
+      "UAB infrastructure reviews",
+      "Exploit-linked fund tracing",
+      "Fraud ecosystem attribution",
+      "Entity and network mapping"
+    ]
+  },
+  {
+    "id": "procurement",
+    "title": "Dual-use technology & procurement exposure",
+    "color": "#993556",
+    "description": "Strategic intelligence analysis of procurement exposure in sanctions-sensitive contexts. Focus on drone procurement ecosystem exposure, dual-use technology supply-chain risk, and the payment pathways associated with adversarial logistics networks tied to sanctioned jurisdictions.",
+    "themes": [
+      "Drone procurement ecosystem",
+      "Dual-use technology supply chains",
+      "Sanctions-sensitive logistics",
+      "Adversarial procurement pathways",
+      "Geopolitical risk assessment"
+    ]
+  }
+]

@@ -1,54 +1,121 @@
-# Intelligence Portfolio Dashboard
+# Intelligence Portfolio — Threat Finance & Sanctions Investigations
 
-AI-assisted intelligence portfolio dashboard built with Streamlit, Python, and Plotly.
+**Proof-of-concept portfolio dashboard.**  
+All data is sanitised. No confidential, sensitive, or internal operational information is disclosed.
 
-This project is a sanitized professional portfolio environment designed to demonstrate:
+---
 
-- Blockchain intelligence analysis
-- Sanctions and threat-finance investigations
-- Intelligence fusion methodologies
-- OSINT-driven investigative workflows
-- Typology development and escalation handling
-- Stakeholder-facing intelligence presentation
+## Overview
 
-The dashboard models professional investigative domains including:
+A Streamlit-based career and capability portfolio for a senior intelligence analyst
+specialising in sanctions nexus investigations, counter-threat finance, adversarial financial
+network analysis, and blockchain intelligence fusion.
 
-- Sanctions exposure analysis
-- Terrorist financing investigations
-- DPRK-related tracing and ecosystem analysis
-- Procurement and logistics intelligence
-- Threat-finance ecosystem mapping
-- Cross-chain attribution workflows
-- Cybercrime infrastructure analysis
-- Intelligence reporting and escalation frameworks
+---
 
-## Features
+## Project structure
 
-- Multi-tab investigative dashboard
-- Intelligence domain mapping
-- Strategic impact summaries
-- Threat ecosystem visualization
-- Stakeholder and workflow modeling
-- Technical tooling overview
-- Interactive charts and portfolio sections
-- Streamlit + Plotly visual analytics
+```
+intel_portfolio/
+├── app.py                   # Main Streamlit entry point
+├── requirements.txt         # Pinned Python dependencies
+├── runtime.txt              # Python version for Streamlit Cloud
+├── README.md                # This file
+│
+├── data/                    # Sanitised JSON data files
+│   ├── workstreams.json
+│   ├── ecosystems.json
+│   ├── investigations.json
+│   ├── methodologies.json
+│   └── impact.json
+│
+├── tabs/                    # One module per dashboard tab
+│   ├── __init__.py
+│   ├── tab_overview.py
+│   ├── tab_ecosystems.py
+│   ├── tab_investigations.py
+│   ├── tab_methodology.py
+│   ├── tab_technical.py
+│   ├── tab_background.py
+│   ├── tab_impact.py
+│   └── tab_portfolio.py
+│
+└── utils/                   # Shared utilities
+    ├── __init__.py
+    ├── data_loader.py       # JSON loader with st.cache_data
+    └── styles.py            # Global CSS injection
+```
 
-## Tech Stack
+---
 
-- Python 3.11
-- Streamlit
-- Plotly
-- Pandas
-- NumPy
-
-## Purpose
-
-This repository is intended as a professional demonstration project and portfolio artifact. All information has been sanitized and abstracted for demonstration purposes only.
-
-No confidential investigative data, customer information, or restricted operational details are included.
-
-## Run Locally
+## Running locally
 
 ```bash
+# 1. Create and activate a virtual environment
+python3 -m venv .venv
+source .venv/bin/activate      # Windows: .venv\Scripts\activate
+
+# 2. Install dependencies
 pip install -r requirements.txt
-streamlit run app.py
+
+# 3. Run the app
+python3 -m streamlit run app.py
+```
+
+The app will open at `http://localhost:8501`.
+
+---
+
+## Deploying to Streamlit Cloud
+
+1. Push this folder as a GitHub repository (or subfolder).
+2. Go to [share.streamlit.io](https://share.streamlit.io).
+3. Connect your GitHub account and select the repo.
+4. Set the **Main file path** to `app.py`.
+5. Click **Deploy**.
+
+Streamlit Cloud will read `runtime.txt` for the Python version and
+`requirements.txt` for dependencies automatically.
+
+---
+
+## Tabs
+
+| Tab | Content |
+|-----|---------|
+| Overview | Investigative workstreams and domain summary |
+| Threat ecosystems | Adversarial financial ecosystems investigated |
+| Representative work | Anonymised operational investigation summaries |
+| Methodology | Intelligence fusion workflow and investigative methodologies |
+| Technical | Tooling, chain coverage, certifications |
+| Background | Career timeline and operational contributions |
+| Strategic impact | Evidence of impact and industry engagement |
+| Portfolio framing | Interview-ready narrative blocks and anonymisation guide |
+
+---
+
+## Important notes
+
+- This is a **proof-of-concept portfolio dashboard** only.
+- No confidential case data, wallet addresses, transaction hashes, customer identifiers,
+  or sensitive counterparty information is included anywhere in this project.
+- Ecosystem names referenced (Garantex, Huione, Xinbi, Scattered Spider, Heleket, Cryptomus)
+  are entities reported publicly in open-source intelligence and industry reporting.
+- This project contains no secrets, API keys, or credentials of any kind.
+
+---
+
+## Exclusion list — do not commit
+
+```
+.venv/
+__pycache__/
+*.pyc
+.env
+.streamlit/secrets.toml
+*.tar.gz
+*.zip
+.DS_Store
+```
+
+Add a `.gitignore` with the above before pushing to GitHub.

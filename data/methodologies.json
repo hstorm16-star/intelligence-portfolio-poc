@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Exposure propagation analysis",
+    "body": "Mapping how sanctions or financial crime risk propagates outward through counterparty networks — identifying indirect exposure beyond first-degree associations."
+  },
+  {
+    "title": "Cross-chain adversarial tracing",
+    "body": "Evasion-aware multi-hop transaction analysis across BTC, ETH, SOL, TRON, and DeFi/bridge ecosystems — maintaining attribution under deliberate obfuscation."
+  },
+  {
+    "title": "Network clustering & entity attribution",
+    "body": "Identifying wallet clusters, shared-input heuristics, and entity relationships to build attribution chains across complex adversarial wallet structures."
+  },
+  {
+    "title": "Behavioural typology development",
+    "body": "Codifying recurring threat actor behaviour — transaction patterns, wallet rotation, layering techniques — into documented typologies for investigative reuse and team enablement."
+  },
+  {
+    "title": "OSINT enrichment & infrastructure mapping",
+    "body": "Combining open-source intelligence with on-chain data to build entity profiles, verify counterparty identity, and map infrastructure supporting adversarial financial operations."
+  },
+  {
+    "title": "Sanctions adjacency analysis",
+    "body": "Assessing proximity to sanctioned entities across counterparty chains — nested exchange exposure, indirect SDN linkage, and high-risk jurisdiction exposure propagation."
+  },
+  {
+    "title": "Procurement ecosystem mapping",
+    "body": "Strategic analysis of payment networks associated with sanctions-sensitive procurement — including dual-use technology and adversarial logistics pathways."
+  },
+  {
+    "title": "Threat ecosystem segmentation",
+    "body": "Structuring adversarial financial ecosystems into component parts — actors, infrastructure, payment rails, and jurisdictions — to produce analytical frameworks usable across investigations."
+  },
+  {
+    "title": "Layered attribution workflow",
+    "body": "Systematic approach to peeling back obfuscation layers — bridge transactions, mixer-adjacent behaviour, cross-chain hops — to maintain attribution chain integrity."
+  },
+  {
+    "title": "Escalation triage & routing",
+    "body": "Structured prioritisation of intelligence signals by sensitivity, regulatory relevance, and complexity — with appropriate routing to compliance, legal, or senior review pathways."
+  }
+]

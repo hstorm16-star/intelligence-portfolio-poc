@@ -1,0 +1,58 @@
+[
+  {
+    "title": "Cross-chain sanctions exposure — adversarial payment ecosystem",
+    "type": "Sanctions",
+    "type_color": "#185FA5",
+    "body": "Analysis of sanctions exposure propagating through a nested payment ecosystem involving high-risk operators linked to a sanctioned jurisdiction. Investigation traced multi-hop wallet flows across two chains, identified intermediary addresses used for obfuscation, and mapped indirect SDN exposure through counterparty chains. Intelligence packaged for risk decision-making and regulatory reporting.",
+    "themes": ["Cross-chain tracing", "SDN exposure", "Counterparty risk propagation", "Regulatory reporting"]
+  },
+  {
+    "title": "Iranian oil procurement — VASP wallet rotation analysis",
+    "type": "Sanctions · Iran",
+    "type_color": "#185FA5",
+    "body": "Tracing of payment flows associated with Iran-linked oil procurement activity. Investigation identified VASP wallet rotation patterns used to break transaction trails, mapped intermediate stablecoin infrastructure, and assessed exposure across regional payment rails. Findings contributed to a broader ecosystem picture of Iranian sanctions evasion methodology across TRON and ETH.",
+    "themes": ["Iran sanctions evasion", "VASP wallet rotation", "Oil procurement flows", "TRON / ETH"]
+  },
+  {
+    "title": "Garantex-adjacent exchanger network — RUB ecosystem exposure",
+    "type": "Sanctions · Russia",
+    "type_color": "#D85A30",
+    "body": "Investigation into a nested exchanger network operating in proximity to sanctioned Russian infrastructure. Analysis mapped fund flows through high-risk RUB-denominated payment providers including Heleket and Cryptomus, identified layering patterns used to obscure origin, and assessed indirect exposure risk for institutional counterparties. Typology documented for investigative reuse.",
+    "themes": ["Garantex-adjacent", "Heleket / Cryptomus", "Nested exchanger", "Exposure propagation"]
+  },
+  {
+    "title": "DPRK IT worker ecosystem — wallet rotation and laundering pathway",
+    "type": "Counter-threat finance",
+    "type_color": "#854F0B",
+    "body": "Analysis of financial activity associated with DPRK-linked IT worker operations. Investigation traced wallet rotation patterns consolidating earnings from multiple front-company engagements, identified cross-chain layering methodology, and mapped the laundering pathway from initial revenue generation through conversion and off-ramp. Output contributed to internal counter-threat finance typology framework.",
+    "themes": ["DPRK IT workers", "Cross-chain layering", "Wallet rotation", "Threat finance typology"]
+  },
+  {
+    "title": "Huione / Xinbi guarantee system — illicit payment ecosystem briefing",
+    "type": "ML · Intelligence dissemination",
+    "type_color": "#534AB7",
+    "body": "Comprehensive investigation and intelligence briefing on Huione and Xinbi guarantee system infrastructure — covering payment rail architecture, actor typology, and the role of these systems in facilitating fraud, cybercrime settlement, and cross-border money laundering. Delivered as a large-scale internal presentation to the CIFC team.",
+    "themes": ["Huione / Xinbi", "Guarantee systems", "Illicit payment rails", "Internal dissemination"]
+  },
+  {
+    "title": "Incident-response tracing — post-exploit cross-chain fund flow",
+    "type": "Cybercrime · Incident response",
+    "type_color": "#0F6E56",
+    "body": "Time-sensitive investigation following a significant exploit event. Traced post-exploit fund movements across multiple chains, identified obfuscation layers including bridge transactions and mixer-adjacent behaviour, and mapped the probable off-ramp pathway. Findings supported blacklist submissions and security team coordination for live asset tracking.",
+    "themes": ["Exploit tracing", "Cross-chain", "Bridge analysis", "Blacklist support"]
+  },
+  {
+    "title": "Procurement ecosystem — dual-use technology exposure analysis",
+    "type": "Procurement · Sanctions",
+    "type_color": "#993556",
+    "body": "Strategic analysis of payment flows associated with suspected dual-use technology procurement. Mapped the procurement network structure, assessed sanctions-adjacent risk factors across the payment chain, and produced a strategic risk assessment rather than a single operational investigation output.",
+    "themes": ["Dual-use technology", "Procurement exposure", "Supply-chain risk", "Strategic assessment"]
+  },
+  {
+    "title": "Regional VASP — enhanced due diligence intelligence",
+    "type": "Enhanced due diligence",
+    "type_color": "#3B6D11",
+    "body": "Complex exposure review of a regional VASP counterparty with identified links to high-risk jurisdictions and sanctions-adjacent transaction flows. Combined OSINT entity verification, on-chain transaction pattern analysis, and regulatory risk assessment — producing an EDD intelligence package supporting an institutional risk decision.",
+    "themes": ["VASP assessment", "OSINT enrichment", "On-chain pattern analysis", "EDD intelligence"]
+  }
+]
