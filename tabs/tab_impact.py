@@ -22,7 +22,15 @@ def render() -> None:
     st.markdown("### Evidence of impact")
 
     impact_items = load_impact()
-    items_html = "".join(impact_items)
+    items_html = ""
+    for item in impact_items:
+        items_html += f"""
+        <div class="imp-row">
+            <div class="imp-icon">{item['icon']}</div>
+            <div class="imp-text">{item['text']}</div>
+            <div class="imp-badge">{item['badge']}</div>
+        </div>
+        """
     st.markdown(
         f'<div style="border:1px solid #e8e8e8;border-radius:10px;padding:8px 16px">'
         f"{items_html}</div>",
