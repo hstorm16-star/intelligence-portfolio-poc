@@ -3,6 +3,10 @@
 **Proof-of-concept portfolio dashboard.**  
 All data is sanitised. No confidential, sensitive, or internal operational information is disclosed.
 
+Access
+
+https://intelligence-portfolio-poc-lmbm9aklhurhf5zmhrucnb.streamlit.app/
+
 ---
 
 ## Overview
