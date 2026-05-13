@@ -66,16 +66,6 @@ The app will open at `http://localhost:8501`.
 
 ---
 
-## Deploying to Streamlit Cloud
-
-1. Push this folder as a GitHub repository (or subfolder).
-2. Go to [share.streamlit.io](https://share.streamlit.io).
-3. Connect your GitHub account and select the repo.
-4. Set the **Main file path** to `app.py`.
-5. Click **Deploy**.
-
-Streamlit Cloud will read `runtime.txt` for the Python version and
-`requirements.txt` for dependencies automatically.
 
 ---
 
@@ -105,17 +95,3 @@ Streamlit Cloud will read `runtime.txt` for the Python version and
 
 ---
 
-## Exclusion list — do not commit
-
-```
-.venv/
-__pycache__/
-*.pyc
-.env
-.streamlit/secrets.toml
-*.tar.gz
-*.zip
-.DS_Store
-```
-
-Add a `.gitignore` with the above before pushing to GitHub.
